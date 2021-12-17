@@ -1,0 +1,648 @@
+
+@keyframes backgroundChanger {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+background-position: 100% 50%;
+  }
+
+  100%{
+background-position: 0 50%;
+  }
+}
+
+body{
+	width: 100%;
+  height: 100%;
+  padding:0;
+  margin:0;
+  background-color: #86908E;
+	background-image: url('g.jpg');
+}
+
+
+#search_text{
+	
+	
+ 
+	
+	
+}
+
+#Tile{
+	
+background-color:#000000 !IMPORTANT;	
+color: #FFFFFF;
+font-family:'Futura Std'!IMPORTANT;
+padding:20px;
+
+}
+
+.BoxMM{
+	width:3vw !IMPORTANT;
+	text-align:center !IMPORTANT;
+	
+	
+}
+ 
+ 
+ 
+#TXTAREA textarea{
+	text-align:left !IMPORTANT;
+	width:400px;
+	height:100px;
+	
+	
+}
+
+#TXTAREA textarea{
+	text-align:left !IMPORTANT;
+	width:400px;
+	height:100px;
+	
+	
+}
+.Rbutton{
+	
+	width:200px;
+	height:150px;
+	display:block !IMPORTANT;
+	font-size:20px;
+	text-align:justify;
+}
+
+.Rbutton input{
+	width:20px;
+	height: 20px;
+	text-align:center !IMPORTANT;
+	 
+	
+}
+
+
+#ListSort{
+ float:right;
+padding:20px;
+padding-left:500px;
+
+}
+
+#Sort3{
+ font-size:20px;
+border-radius:10px;
+}
+
+
+
+#desc1{
+	align-items:center;
+	width:400px;
+	/*height:5vh;*/
+	border-radius:20px;
+	text-align:center;
+	justify-content:center;
+	background-color: #E50914;
+	 padding:10px;
+	font-size:50px;
+	margin-left:50px;
+	margin-right:50px;
+margin-top:50px;
+font-family: FreeMono, monospace;';
+ color: #FFFFFF;
+ 
+}
+#desc2{
+	width:400px;
+	height:200px;
+	border-radius:20px;
+	text-align:center;
+	justify-content:center;
+	background-color: #808080;
+	padding:20px;
+	font-size:25px;
+	margin-left:50px;
+	margin-right:50px;
+	font-family: FreeMono, monospace;
+	  
+}
+
+
+#desc3{
+	width:100px;
+	border-radius:20px;
+	 margin-bottom:20px;
+	justify-content:center;
+background-color: #808080;
+	padding:10px;
+	font-size:15px;
+	margin-left:50px;
+	margin-right:50px;
+	font-family: FreeMono, monospace;
+text-align: center;
+	 
+}
+
+#buy{
+	width:400px  ;
+	height:20px;
+	border-radius:20px;
+	 margin-bottom:20px;
+	justify-content:center;
+background-color: #377374;
+	padding:10px;
+	font-size:15px;
+	margin-left:50px;
+	margin-right:50px;
+	font-family:'Futura Std';
+	 
+}
+
+
+
+#Close{
+	float:right;
+	Border-radius:10px;
+	background:none;
+	padding-left:20px;
+padding-right:20px;
+padding-top:5px;
+
+border:none;
+ cursor:pointer;
+margin-top:5px;
+margin-bottom:10px;
+text-align:center !IMPORTANT;
+font-size:20px;
+}
+
+#SoloBG{
+width:60%;
+height:20%;
+ 
+padding-top:2%;
+padding-bottom:5%;
+padding-left:2%;
+padding-right:2%;
+ align:center !IMPORTANT;
+ margin-right:20%;
+ margin-left:20%;
+  margin-top:10px;
+
+
+}
+#buttonBuy button{
+  font-family: FreeMono, monospace;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #E50914;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-left: 205px;
+}
+
+#SoloBG td{
+	height:100px !IMPORTANT;
+	border:none;
+	 background: #000000 ;
+}
+.SoloDesc{
+  background: #000000 ;
+}
+
+#ViewSolo{
+
+}
+
+#SuggestBtn{
+ 
+	width:200px;
+	background-color: #79dade;
+	height:60px;
+	margin:0;
+	padding:0;
+	display:flex !IMPORTANT;
+	font-size:20px;
+}
+
+
+
+.SoloBG tr{
+Background:None !IMPORTANT;	
+}
+
+
+.SoloBG td{
+Background:None !IMPORTANT;	
+}
+
+.SoloPic{
+padding:20px;
+	
+	
+}
+
+.SoloPic img{
+border-radius:20px;
+width:225px;
+height:225px;
+	
+}
+
+
+ 
+ .Drop{
+	 margin:0;
+	 padding:0;
+ }
+ 
+#DropIMG{
+width:70px;
+height:55px;
+padding:0;
+margin:0;
+display:flex !IMPORTANT;
+}	
+ .eme1{
+ 
+
+ }
+.eme1 input{
+  
+margin:10px;
+  width: 7vw;
+  height: 6vh;
+  border-radius: 10px;
+  outline:none;
+  right: 3vw;
+  font-family: 'OCR A Extended' !IMPORTANT;
+  background: #377374;
+  border: 1px solid rgba(255,255,255,0.5);
+  cursor: pointer;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  color: white;
+  z-index: 1;
+  font-size:20px;
+   
+}
+
+
+.eme1 input:hover{
+ 
+  background: #3e8e41;
+ 
+  cursor: pointer;
+  
+}
+
+
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+
+.Price{
+	
+	display:flex;
+		padding:5px;
+}
+
+.BoxMM{
+	width:40px;
+	
+
+}
+
+.bodyside{
+  font-family: FreeMono, monospace;
+  font-size: 15px;
+	padding:10PX;
+	/*width:20%;*/
+	height:90%;
+
+ float:left;
+  background:linear-gradient(-10deg,#2A363B, #E84A5F,#FF847C, #FECEA8, #99B898);
+border-radius:20px;
+margin-top:10px;
+margin-left:20px;
+ color:#000000;
+}
+
+.top{
+	display:flex;
+}
+
+h3{
+	font-family: FreeMono, monospace;
+	 text-align:left !IMPORTANT;
+	 font-size:25px !IMPORTANT;
+}
+h1{
+	 text-align:center !IMPORTANT;
+}
+.bodyside .Brand{
+	
+padding-left:20px;
+	font-family: 'Futura Std';
+}
+
+.bodyside .Price{
+	
+padding-left:20px;
+	font-family: 'Futura Std';
+}
+
+.bodyside .Rbutton{
+	
+padding-left:20px;
+	font-family: 'Futura Std';
+}
+
+.pnum {
+	 	font-family: FreeMono, monospace;;
+	font-size: 30px;
+	 display:flex !IMPORTANT;
+	padding:10px;
+width:30vw;
+ 
+	
+
+}
+
+select {
+	padding:5px;
+}
+.desc{
+ font-family: 'calibri';
+	font-size: 20px;
+text-align:center;
+}
+
+.pic img{
+	width:150px;
+	height:150px;
+	margin-left:27px;
+	border-radius:10px;
+	
+}
+
+.bodymid{
+	width:77%;
+	 background:linear-gradient(-10deg,#2A363B, #E84A5F,#FF847C, #FECEA8, #99B898);
+	float:right;
+	margin-right:40px;
+	margin-top:20px;
+	border-radius:20px;
+	  padding:20px;
+}
+
+#viewSolo td {
+	  border-radius:20px;
+	  
+
+}
+.bodymid td{
+	width:200px;
+	height:200px;
+	padding:20px;
+	border-style:groove;
+border-color:WHITE ;  
+}
+
+.header p{
+  position: relative;
+  left: 3vw;
+  letter-spacing: .1rem;
+  font-family: 'Toe the Lineless';
+  font-size: 55px;
+  color:#2b484e;
+  text-align:center;
+  padding-left:20px;
+ 
+}
+
+.header{
+  display: flex;
+  height: 10.6vh;
+      background:linear-gradient(-10deg,#2A363B, #E84A5F,#FF847C, #FECEA8, #99B898);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0 0 5% 5%/0 0 100% 100%;
+  border-radius: 0 0 5% 5%/0 0 100% 100%;
+
+  
+}
+.header h1{
+  position: relative;
+  left: 3vw;
+  letter-spacing: .1rem;
+  font-family: 'OCR A Std';
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.8);
+display:flex;
+ 
+}
+.goBack{
+  position: relative;
+  width: 11vw;
+  height: 6vh;
+  border-radius: 10px;
+  outline:none;
+  right: 3vw;
+  font-family: 'OCR A Extended' !IMPORTANT;
+  background: #1ba39c;
+  border: 1px solid rgba(255,255,255,0.5);
+  cursor: pointer;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  color: white;
+  z-index: 1;
+}
+.goBack::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height:0%;
+  border-radius: 0 0 100% 100%;
+  background:#4ecdc4;
+  z-index: -1;
+  transition: 0.8s;
+}
+.goBack:hover::before{
+  height: 150%;
+}
+
+.search{
+  width: 15vw;
+  height: 6vh;
+  padding: 5px;
+  outline:none;
+  border-radius: 10px;
+  border: none;
+  position:relative;
+  font-size:15px;
+  display:flex !IMPORTANT;
+  margin-left:47%;
+  
+ 
+
+}
+
+.dropdown-content{
+	margin-left:53% !IMPORTANT;
+}
+
+.adminpic {
+	 align:rigth !IMPORTANT;
+   margin-left:1%;
+   position: relative;
+  width: 5vw;
+  height: 8vh;
+  border-radius: 10px;
+  outline:none;
+  right: -3vw;
+  font-family: 'OCR A Extended' !IMPORTANT;
+  background: #377374;
+  border: 1px solid rgba(255,255,255,0.5);
+  cursor: pointer;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  color: white;
+  z-index: 1;
+  padding:5px;
+}
+
+
+.dropbtn {
+   position: relative;
+  width: 11vw;
+  height: 6vh;
+  border-radius: 10px;
+  outline:none;
+  right: 3vw;
+  font-family: 'OCR A Extended' !IMPORTANT;
+  background: #377374;
+  border: 1px solid rgba(255,255,255,0.5);
+  cursor: pointer;
+  overflow: hidden;
+  transition: .5s ease-in-out;
+  color: white;
+  z-index: 1;
+  font-size:20px;
+  padding:0;
+  margin:0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding:0;
+  margin:0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding:0;
+  margin:0;
+}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding:0;
+  margin:0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.modalbox{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*asdads */
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.modalbox{
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+tr:nth-child(even) {background-color:  #79dade; }
+tr:nth-child(odd) {background-color: #79dade; }
+ 
+  
+.desc{
+	font-family:font-family: FreeMono, monospace;
+}
+
+#footer{
+	 font-family: FreeMono, monospace;
+  padding: 20px 20px;
+  text-align: center;
+  background: #000000;
+  display: inline-flex;
+  align-items: baseline;
+  color: #FFFFFF ;
+}
+
+#footer .social-links a{
+  font-family: 'Socialico';
+  font-size: 20px;
+}

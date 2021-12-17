@@ -1,0 +1,120 @@
+
+@keyframes backgroundChanger {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+background-position: 100% 50%;
+  }
+
+  100%{
+background-position: 0 50%;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+      background-image: url('../img2/bgmovie.jpg');
+      font-family: sans-serif;
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.LoginBg{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.LoginBg p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+
+}
+
+.LoginBg input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.LoginBg input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.LoginBg input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.LoginBg input[type="submit"]:hover{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.LoginBg #Form1 {
+  width: 320px;
+  height: 450px;
+  background : #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.LoginBg #Form2{
+  width: 320px;
+  height: 500px;
+  background : #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+.LoginBg a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.LoginBg a:hover{
+  color: #ffc107;
+}

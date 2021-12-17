@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Serrakura</title>
+	<link rel="stylesheet" type="text/css" href="styleHome.css">
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div id="logo">
+				<a href="index.html"><img src="img2/logo.png"></a>
+			</div>
+			<div id="navigation">
+				<ul>
+					<a href="index.html"><li class="link">Home</li></a>
+					<a href="indexUser.php"><li class="link">Book a Ticket</li></a>
+					<a href="blogs.html"><li class="link">Blogs</li></a>
+					<a href="about.html"><li class="link">About Us</li></a>
+					<a href="login.php"><li class="link">SIGN IN</li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="slider">
+		<div class="slides">
+			<input type="radio" name="radio-btn" id="radio1">
+			<input type="radio" name="radio-btn" id="radio2">
+			<input type="radio" name="radio-btn" id="radio3">
+			<input type="radio" name="radio-btn" id="radio4">
+
+			<div class="slide first">
+				<img src="img2/eternals.jpg" alt="">
+			</div>
+			<div class="slide">
+				<img src="img2/john_wick.png" alt="">
+			</div>
+			<div class="slide">
+				<img src="img2/venom.jpg" alt="">
+			</div>
+			<div class="slide">
+				<img src="img2/spider.jpg" alt="">
+			</div>
+
+			<div class="navigation-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+				<div class="auto-btn4"></div>
+			</div>
+
+		</div>
+
+		<div class="navigation-manual">
+			<label for="radio1" class="manual-btn"></label>
+			<label for="radio2" class="manual-btn"></label>
+			<label for="radio3" class="manual-btn"></label>
+			<label for="radio4" class="manual-btn"></label>
+		</div>
+			<!-- -->
+	</div>
+			<!-- -->
+
+		<script type="text/javascript">
+			var counter = 1;
+			setInterval(function(){
+				document.getElementById('radio' + counter).checked = true;
+				counter++;
+				if(counter > 4){
+					counter = 1;
+				}
+			}, 5000);
+		</script>
+	</header>
+
+	<div id="content">
+		<div id="section1">
+			<div class="categories">
+				<div class="category">
+					<img src="img2/eternals.jpg">
+					<span>Movie 1</span>
+				</div>
+				<div class="category">
+					<img src="img2/spider.jpg"  style="height: 250px">
+					<span>Movie 2</span>
+				</div>
+				<div class="category">
+					<img src="img2/venom.jpg">
+					<span>Movie 3</span>
+				</div>
+			</div>
+		</div>
+	<div class="container">
+		<div id="section2">
+			<div class="image-container">
+				<img src="img2/spider1.jpg">
+			</div>
+			<div class="caption-container">
+				<p>With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.</p>
+			</div>
+		</div>
+		<div id="section2">
+			<div class="image-container">
+				<img src="img2/eternals1.jpg">
+			</div>
+			<div class="caption-container">
+				<p>Following the events of Avengers: Endgame (2019), an unexpected tragedy forces the Eternals, ancient aliens who have been living on Earth in secret for thousands of years, out of the shadows to reunite against mankind's most ancient enemy, the Deviants.</p>
+			</div>
+		</div>
+			<div id="section2">
+			<div class="image-container">
+				<img src="img2/captain marvel 2.jpg">
+			</div>
+			<div class="caption-container">
+				<p>The Marvels is an upcoming American superhero film based on Marvel Comics featuring the characters Carol Danvers / Captain Marvel, Kamala Khan / Ms. Marvel, and Monica Rambeau.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div style="margin-top:200px;"></div>
+		<div id="footer">
+			<h2 style="text-align: center;">Contact Us</h2>
+			<div class="social-links">
+				<a href="gmail.com"><span>senangelo.jasfer@clsu2.edu.ph</span></a>
+				<a href="gmail.com"><span>cruz.ruel@clsu2.edu.ph</span></a>
+				<a href="gmail.com"><span>villanueva.ralph@clsu2.edu.ph</span></a>
+			</div>
+			<p>Copyright 2021 Serrakura |  Copyrights, trademarks and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law.</p>
+		</div>
+
+</body>
+</html>
